@@ -72,6 +72,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'sarisaristoreapp.wsgi.application'
 
+DATE_INPUT_FORMATS = [
+    [
+        " %Y-%m-%d", # 'YYYY-MM-DD'
+    ]
+]
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
